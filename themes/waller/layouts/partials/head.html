@@ -1,2 +1,14 @@
-<link rel="stylesheet" href="/css/evolventa.css" />
-<link rel="stylesheet" href="/css/style.css" />
+{{ $fonts := resources.Get "fonts.css" }}
+<link rel="stylesheet" href="{{ $fonts.Permalink }}" />
+
+{{ $style := resources.Get "style.css" }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+{{ $layouts := resources.Get "layouts.css" }}
+<link rel="stylesheet" href="{{ $layouts.Permalink }}" />
+
+{{ $blocks := resources.Get "blocks.css" }}
+<link rel="stylesheet" href="{{ $blocks.Permalink }}" />
+
+{{ $utilities := resources.Get "utilities.css" }}
+<link rel="stylesheet" href="{{ $utilities.Permalink }}" />

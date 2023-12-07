@@ -1,0 +1,73 @@
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.max-w-page {
+    max-inline-size: var(--page-width);
+}
+
+.w-full {
+    inline-size: 100%;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.shadow-1 {
+    box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+    box-shadow: var(--shadow-2);
+}
+
+.shadow-3 {
+    box-shadow: var(--shadow-3);
+}
+
+.shadow-4 {
+    box-shadow: var(--shadow-4);
+}
+
+.shadow-5 {
+    box-shadow: var(--shadow-5);
+}
+
+.shadow-6 {
+    box-shadow: var(--shadow-6);
+}
+
+.radius-1 {
+    border-radius: var(--s-4);
+}
+
+.radius-2 {
+    border-radius: var(--s-3);
+}
+
+.radius-3 {
+    border-radius: var(--s-2);
+}
+
+
+.radius-4 {
+    border-radius: var(--s-1);
+}
+
+.radius-5 {
+    border-radius: var(--s0);
+}
+
+.bg-gray {
+    background-color: var(--color-gray);
+}
