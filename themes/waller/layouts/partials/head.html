@@ -1,14 +1,14 @@
 {{ $fonts := resources.Get "fonts.css" }}
-<link rel="stylesheet" href="{{ $fonts.Permalink }}" />
+<link rel="stylesheet" href="{{ $fonts.RelPermalink }}" />
 
 {{ $style := resources.Get "style.css" }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" />
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
 {{ $layouts := resources.Get "layouts.css" }}
-<link rel="stylesheet" href="{{ $layouts.Permalink }}" />
+<link rel="stylesheet" href="{{ $layouts.RelPermalink }}" />
 
 {{ $blocks := resources.Get "blocks.css" }}
-<link rel="stylesheet" href="{{ $blocks.Permalink }}" />
+<link rel="stylesheet" href="{{ $blocks.RelPermalink }}" />
 
 {{ $utilities := resources.Get "utilities.css" }}
-<link rel="stylesheet" href="{{ $utilities.Permalink }}" />
+<link rel="stylesheet" href="{{ $utilities.RelPermalink }}" />
